@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{35A931D4-0880-4CBA-AA9C-9719F57D0FA5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>gabe_clicker_remastered</RootNamespace>
+    <AssemblyName>gabe clicker remastered</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Nevron.Nov.Barcode, Version=21.3.18.12, Culture=neutral, PublicKeyToken=b33b1a04bb5ca8ad" />
+    <Reference Include="Nevron.Nov.Chart, Version=21.3.18.12, Culture=neutral, PublicKeyToken=b33b1a04bb5ca8ad" />
+    <Reference Include="Nevron.Nov.Diagram, Version=21.3.18.12, Culture=neutral, PublicKeyToken=b33b1a04bb5ca8ad" />
+    <Reference Include="Nevron.Nov.Grid, Version=21.3.18.12, Culture=neutral, PublicKeyToken=b33b1a04bb5ca8ad" />
+    <Reference Include="Nevron.Nov.Host.WinForm, Version=21.3.18.12, Culture=neutral, PublicKeyToken=b33b1a04bb5ca8ad" />
+    <Reference Include="Nevron.Nov.Presentation, Version=21.3.18.12, Culture=neutral, PublicKeyToken=b33b1a04bb5ca8ad" />
+    <Reference Include="Nevron.Nov.Schedule, Version=21.3.18.12, Culture=neutral, PublicKeyToken=b33b1a04bb5ca8ad" />
+    <Reference Include="Nevron.Nov.Text, Version=21.3.18.12, Culture=neutral, PublicKeyToken=b33b1a04bb5ca8ad" />
+    <Reference Include="Nevron.Nov.WinFormControls, Version=21.3.18.12, Culture=neutral, PublicKeyToken=b33b1a04bb5ca8ad" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cleargac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cleargac.Designer.cs">
+      <DependentUpon>cleargac.cs</DependentUpon>
+    </Compile>
+    <Compile Include="consolewindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consolewindow.Designer.cs">
+      <DependentUpon>consolewindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="devmode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="devmode.Designer.cs">
+      <DependentUpon>devmode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gameinfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gameinfo.Designer.cs">
+      <DependentUpon>gameinfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemgivedialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemgivedialog.Designer.cs">
+      <DependentUpon>itemgivedialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="patchdialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="patchdialog.Designer.cs">
+      <DependentUpon>patchdialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="selectitem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="selectitem.Designer.cs">
+      <DependentUpon>selectitem.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="cleargac.resx">
+      <DependentUpon>cleargac.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consolewindow.resx">
+      <DependentUpon>consolewindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="devmode.resx">
+      <DependentUpon>devmode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gameinfo.resx">
+      <DependentUpon>gameinfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemgivedialog.resx">
+      <DependentUpon>itemgivedialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="patchdialog.resx">
+      <DependentUpon>patchdialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="selectitem.resx">
+      <DependentUpon>selectitem.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon.ico" />
+    <None Include="Resources\snd_itemnotification.wav" />
+    <None Include="Resources\ui-inventory_move.png" />
+    <None Include="Resources\ui-inventory-trash.png" />
+    <None Include="Resources\snd-shop_music.wav" />
+    <None Include="Resources\ui-image_load_fail.png" />
+    <None Include="Resources\ui-inventory.png" />
+    <None Include="Resources\trolled.wav" />
+    <None Include="Resources\trol.png" />
+    <None Include="Resources\ui-themeapplybackground.jpg" />
+    <None Include="Resources\themes-preview_greyscale.png" />
+    <None Include="Resources\themes-preview_lime.png" />
+    <None Include="Resources\themes-preview_hazard_zone.png" />
+    <None Include="Resources\themes-preview_salmon.png" />
+    <None Include="Resources\themes-preview_default.png" />
+    <None Include="Resources\ui-easteregg1_scary.png" />
+    <None Include="Resources\ui-console.png" />
+    <None Include="Resources\ui-patchlog.png" />
+    <None Include="Resources\mmcndmgr_30502-2.bmp" />
+    <None Include="Resources\happygabe.jpg" />
+    <None Include="Resources\Gaben.jpg" />
+    <None Include="Resources\ui-autoclicker.png" />
+    <None Include="Resources\snd-shop_open.wav" />
+    <None Include="Resources\ui-settings2.png" />
+    <None Include="Resources\ui-stars.png" />
+    <None Include="Resources\ui-menu.png" />
+    <None Include="Resources\ui-shop.png" />
+    <None Include="Resources\ui-gabethegodofthisuniverseiloveyou.png" />
+    <None Include="Resources\ui-close-highlighted.png" />
+    <None Include="Resources\ui-minmize.png" />
+    <None Include="Resources\ui-close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,17 @@
+C:\Users\kaneo\source\repos\gabe clicker remastered\gabe clicker remastered\bin\Release\gabe clicker remastered.exe.config
+C:\Users\kaneo\source\repos\gabe clicker remastered\gabe clicker remastered\bin\Release\gabe clicker remastered.exe
+C:\Users\kaneo\source\repos\gabe clicker remastered\gabe clicker remastered\bin\Release\gabe clicker remastered.pdb
+C:\Users\kaneo\source\repos\gabe clicker remastered\gabe clicker remastered\obj\Release\gabe clicker remastered.csprojAssemblyReference.cache
+C:\Users\kaneo\source\repos\gabe clicker remastered\gabe clicker remastered\obj\Release\gabe_clicker_remastered.Form1.resources
+C:\Users\kaneo\source\repos\gabe clicker remastered\gabe clicker remastered\obj\Release\gabe_clicker_remastered.Properties.Resources.resources
+C:\Users\kaneo\source\repos\gabe clicker remastered\gabe clicker remastered\obj\Release\gabe clicker remastered.csproj.GenerateResource.cache
+C:\Users\kaneo\source\repos\gabe clicker remastered\gabe clicker remastered\obj\Release\gabe clicker remastered.csproj.CoreCompileInputs.cache
+C:\Users\kaneo\source\repos\gabe clicker remastered\gabe clicker remastered\obj\Release\gabe clicker remastered.exe
+C:\Users\kaneo\source\repos\gabe clicker remastered\gabe clicker remastered\obj\Release\gabe clicker remastered.pdb
+C:\Users\kaneo\source\repos\gabe clicker remastered\gabe clicker remastered\obj\Release\gabe_clicker_remastered.cleargac.resources
+C:\Users\kaneo\source\repos\gabe clicker remastered\gabe clicker remastered\obj\Release\gabe_clicker_remastered.devmode.resources
+C:\Users\kaneo\source\repos\gabe clicker remastered\gabe clicker remastered\obj\Release\gabe_clicker_remastered.gameinfo.resources
+C:\Users\kaneo\source\repos\gabe clicker remastered\gabe clicker remastered\obj\Release\gabe_clicker_remastered.patchdialog.resources
+C:\Users\kaneo\source\repos\gabe clicker remastered\gabe clicker remastered\obj\Release\gabe_clicker_remastered.consolewindow.resources
+C:\Users\kaneo\source\repos\gabe clicker remastered\gabe clicker remastered\obj\Release\gabe_clicker_remastered.itemgivedialog.resources
+C:\Users\kaneo\source\repos\gabe clicker remastered\gabe clicker remastered\obj\Release\gabe_clicker_remastered.selectitem.resources
